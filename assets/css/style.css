@@ -1,0 +1,190 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url('../images/bananas.png');
+    overflow: scroll;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+}
+p {
+    padding: 5px 5px 5px 5px; 
+}
+
+/* header and navigation bar*/
+.main-nav {
+    height: 15%;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    background-color:#ffffff;
+    border-bottom: 3px solid #777777;
+    position: relative;
+}
+
+.nav-name {
+    float: left;
+    width: 20%;
+    margin-left: 200px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    position: absolute; 
+    bottom: 0;
+    padding: 15px 0px 15px 0px;
+}
+
+#nav-name-text {
+
+}
+
+ul {
+    list-style-type: none;
+    /*Using float here to avoid stacking*/
+    float: right;
+    margin-top: 50px;
+}
+
+li {
+    display: inline-block;
+}
+
+.nav-list {
+    width: 20%;
+    margin-right: 150px;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    padding: 15px 0px 15px 0px;
+
+}
+
+#nav-port {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    padding: 0px 3px 0px 3px;
+}
+
+/*Bonus link features are here*/
+a:link {
+    color:darkgrey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgray;
+    text-decoration: none;
+}
+
+/*Content box for all pages*/
+.main {
+    height: 60%;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    overflow: scroll;
+}
+
+/*index page specific content*/
+#ind-about {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #777777;
+    color: #4aaaa5;
+}
+
+.ind-img {
+    float: left;
+    margin: 10px;
+
+}
+
+/*portfolio specific content*/
+.proj-left {
+    border: 1px solid #777777;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 150px;
+    background-image: url("https://via.placeholder.com/150");
+}
+
+.proj-right {
+    border: 1px solid #777777;
+    float: left;
+    margin-left: 40px;
+    margin-right: 500px;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 150px;
+    background-image: url("https://via.placeholder.com/150");
+}
+
+.port-teal-overlay {
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 120px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top:70px;
+}
+
+/*contact specific content*/
+
+form {
+    height: auto;
+    margin: 0;
+}
+
+.label {
+    width: 100%;
+    margin: 35px;
+}
+
+button {
+    margin-left: 35px;
+    margin-bottom: 20px;
+    background-color: dodgerblue;
+}
+
+.inputfld {
+    width: 90%;
+    margin-left: 35px;
+    margin-right: 600px;
+    margin-bottom: 10px;
+}
+
+#inpt-msg {
+    height: 200px;
+}
+
+/*footer and copyright*/
+
+.main-foot {
+    height: 10%;
+    width: 100%;
+    background-color: #666666;
+    margin-top: opx;
+    padding-top: 30px;
+    color: white;
+    border-top: 3px solid #4aaaa5;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
