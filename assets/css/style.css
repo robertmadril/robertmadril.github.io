@@ -181,6 +181,10 @@ a:visited {
     width: 75%;
 }
 
+.proj:hover {
+    opacity: 1;
+}
+
 .pdf-view {
     margin: auto;
 }
