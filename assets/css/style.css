@@ -76,7 +76,7 @@ li {
     font-family: 'Quicksand', sans-serif;
     width: 100%;
     height: 30%;
-    background-color: lightcyan;
+    
     opacity: 0.4;
     position: relative;
 }
@@ -109,27 +109,30 @@ li {
 
 
 .contact {
-    font-family: 'Quicksand', sans-serif;
-    float: left;
     width: 100%;
     height:75%;
-    text-align: center;
+
 }
 
 .contact h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
     margin-top: 5%;
+    text-align: center;
 }
 
 .contact li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
     display: block;
     padding-top: 2%;
+    text-align: center;
 }
 
 .about-tucson {
     font-family: 'Quicksand', sans-serif;
     width: 100%;
     height: 30%;
-    background-image: url(https://wikitravel.org/upload/shared//a/af/Tucson_Banner.jpg);
     opacity: 0.6;
     padding-top: 20px;
     padding-bottom: 46px;
@@ -142,7 +145,7 @@ li {
     font-family: 'Quicksand', sans-serif;;
     font-weight: 200;
     font-style: normal;
-    font-size: 12px;
+    font-size: 18px;
     height: 25px;
     background-color: lightgray;
     border-top: 4px solid darkgrey;
@@ -151,12 +154,12 @@ li {
     bottom: 0;
     width: 100%;
     text-align: center;
-    opacity: 0.7;
     z-index: 4;
 }
 
 .cop-list {
     height: 50%;
+    padding-bottom: 15px;
 }
 
 .foot-list {
@@ -176,4 +179,8 @@ a:visited {
 .proj img {
     height: 100%;
     width: 75%;
+}
+
+.pdf-view {
+    margin: auto;
 }
