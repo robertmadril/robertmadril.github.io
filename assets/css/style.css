@@ -51,25 +51,25 @@ li {
 
 .main-page {
     font-family: 'Quicksand', sans-serif;
-    float: left;
+    float: right;
     width: 50%;
     height:75%;
-    text-align: right;
+    text-align: left;
 }
 
 .main-page-text {
     margin-top:100px;
-    margin-right: 50px;
+    margin-right: 100px;
     text-align: center;
 }
 .main-img {
-    float: right;
+    float: left;
     width: 50%;
     height: 75%;
 }
 .main-page-img {
     margin-top: 100px;
-    margin-left:100px;
+    margin-left: 200px;
     border-radius: 50%;
 }
 
